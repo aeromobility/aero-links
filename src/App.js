@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <div className="flex-grow">
           <Routes>
-            <Route path="/aero-links" element={<Homepage />} />
+            <Route path="/links" element={<Homepage />} />
           </Routes>
         </div>
         <Footer />
