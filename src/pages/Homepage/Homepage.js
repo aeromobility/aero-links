@@ -38,7 +38,12 @@ const Homepage = ({currentTab}) => {
           <div className="card-body bg-white text-center rounded-b-lg h-64">
             <h2 className="card-title flex justify-center">{currentCompany.name}</h2>
             <p>
-             {currentCompany.description}
+            {currentCompany.description.split('\n').map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  {index < currentCompany.description.split('\n').length - 1 && <br />}
+                </React.Fragment>
+              ))}
             </p>
             <div className="flex flex-row justify-center">
               <button
