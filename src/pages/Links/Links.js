@@ -7,7 +7,7 @@ const Links = ({ currentCompany }) => {
 
   return (
     <div className="w-full flex justify-center">
-      <ul className="menu rounded-box flex flex-col h-fit w-96 shadow-md m-12 glass">
+      <ul className="menu rounded-box flex flex-col h-fit min-w-96 shadow-md m-12 glass">
         {linksToUse.map((link, index) => (
           <li key={index}>
             <a
