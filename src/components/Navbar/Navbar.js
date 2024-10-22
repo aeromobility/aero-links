@@ -1,17 +1,17 @@
 import React from "react";
-import aeroBanner from "../../pages/Homepage/content/aeroBanner.png"
+import { aeroInfo } from "../../pages/Homepage/content/items"
 
 const Navbar = ({dataFromChild}) => {
-  const defaultBanner = dataFromChild.name === "@GiantMobility" ? dataFromChild.banner : aeroBanner;
+  const companyData = dataFromChild.name === "@GiantMobility" ? dataFromChild : aeroInfo;
   return (
     <div className="navbar bg-base-100 shadow-2xl justify-between">
       
-        <img src={defaultBanner} className="h-8" alt="Banner Logo" />
+        <img src={companyData.banner} className="h-8" alt="Banner Logo" />
       
       <div className="flex flex-col mr-8 text-sm">
         <p>Call us at: </p>
-        <a href="tel:+18773254000" className="hover:underline">
-          {dataFromChild.phone}
+        <a href={companyData.tel} className="hover:underline">
+          {companyData.phone}
         </a>
       </div>
     </div>
