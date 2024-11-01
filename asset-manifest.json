@@ -1,11 +1,21 @@
 {
   "files": {
-    "main.css": "/links/static/css/main.0b3d9aee.css",
-    "main.js": "/links/static/js/main.254cdd47.js",
+    "main.css": "/links/static/css/main.69e35698.css",
+    "main.js": "/links/static/js/main.11c8db9d.js",
     "static/js/453.f1dc1390.chunk.js": "/links/static/js/453.f1dc1390.chunk.js",
     "static/media/building.mp4": "/links/static/media/building.592e3e0985bfa8b981c9.mp4",
     "static/media/aero.png": "/links/static/media/aero.2fe132708d5bae8940ef.png",
     "static/media/aeroLogo.png": "/links/static/media/aeroLogo.2fe132708d5bae8940ef.png",
+    "static/media/toyota-side.jpg": "/links/static/media/toyota-side.f3ceb175414a24e19efb.jpg",
+    "static/media/chevy-side.jpg": "/links/static/media/chevy-side.820c04193b9bb67fb2cd.jpg",
+    "static/media/dodge-side.jpg": "/links/static/media/dodge-side.50c4d3485c3ef60d8961.jpg",
+    "static/media/chrysler-side.jpg": "/links/static/media/chrysler-side.1db52dcd6139ccb2570d.jpg",
+    "static/media/sprinter-side.jpg": "/links/static/media/sprinter-side.bf2db025ca038641f488.jpg",
+    "static/media/hyundai-rear.jpg": "/links/static/media/hyundai-rear.6666a842fa1f0713a672.jpg",
+    "static/media/buick-rear.jpg": "/links/static/media/buick-rear.b5b65d90112dfe3bf2ca.jpg",
+    "static/media/kia-rear.jpg": "/links/static/media/kia-rear.e26527df4c9e832fb03b.jpg",
+    "static/media/dodge-rear.jpg": "/links/static/media/dodge-rear.7c8c2e7700d09a671857.jpg",
+    "static/media/toyota-rear.jpg": "/links/static/media/toyota-rear.8cda5ce3cc2624eddaef.jpg",
     "static/media/aeroBanner.png": "/links/static/media/aeroBanner.f65882fa866d2efa5cf2.png",
     "static/media/giant.png": "/links/static/media/giant.eec389881c71deb8c502.png",
     "static/media/giantLogo.png": "/links/static/media/giantLogo.eec389881c71deb8c502.png",
@@ -14,12 +24,12 @@
     "static/media/tiktok.png": "/links/static/media/tiktok.49b1a7fdabdc892efbab.png",
     "static/media/giantBanner.png": "/links/static/media/giantBanner.0340538a03a41ebc5857.png",
     "index.html": "/links/index.html",
-    "main.0b3d9aee.css.map": "/links/static/css/main.0b3d9aee.css.map",
-    "main.254cdd47.js.map": "/links/static/js/main.254cdd47.js.map",
+    "main.69e35698.css.map": "/links/static/css/main.69e35698.css.map",
+    "main.11c8db9d.js.map": "/links/static/js/main.11c8db9d.js.map",
     "453.f1dc1390.chunk.js.map": "/links/static/js/453.f1dc1390.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b3d9aee.css",
-    "static/js/main.254cdd47.js"
+    "static/css/main.69e35698.css",
+    "static/js/main.11c8db9d.js"
   ]
 }
