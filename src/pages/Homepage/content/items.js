@@ -1,7 +1,7 @@
-import aeroLogo from "./aeroLogo.png";
-import aeroBanner from "./aeroBanner.png"
-import giantLogo from "./giantLogo.png";
-import giantBanner from "./giantBanner.png"
+import aeroLogo from "./images/extra/aeroLogo.png";
+import aeroBanner from "./images/extra/aeroBanner.png";
+import giantLogo from "./images/extra/giantLogo.png";
+import giantBanner from "./images/extra/giantBanner.png";
 
 const aeroInfo = {
   name: "@AeroMobility",
@@ -12,7 +12,7 @@ const aeroInfo = {
   model: "Side-Entry",
   location: "1001 N. Weir Canyon Rd Anaheim, CA",
   phone: "(877) 325-4000",
-  tel: "tel:+87732254000"
+  tel: "tel:+87732254000",
 };
 
 const giantInfo = {
@@ -24,8 +24,7 @@ const giantInfo = {
   model: "Rear-entry",
   location: "1000 Pullman St, Anaheim, CA 92807",
   phone: "(714) 895-1000",
-  tel: "tel:+7148951000"
+  tel: "tel:+7148951000",
 };
 
 export { aeroInfo, giantInfo };
-

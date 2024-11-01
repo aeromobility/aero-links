@@ -19,7 +19,7 @@ const aeroLinks = [
   {
     name: "Inventory",
     description: "Side-Entry Inventory!",
-    link: "https://www.aeromobility.com/used-wheelchair-vehicles-for-sale-anaheim-ca",
+    link: "https://www.aeromobility.com/wheelchair-vans-for-sale-anaheim-ca",
     icon: aero,
   },
   {

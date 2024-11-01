@@ -7,8 +7,15 @@ const Footer = ({dataFromChild}) => {
     <footer className="footer footer-center bg-base-100 text-base-content p-4">
       <aside>
         <p>{companyData.location}</p>
-        <p>{companyData.phone}</p>
+        <a href={companyData.tel} className="hover:underline">
+          {companyData.phone}
+        </a>
+        <p>Monday - Friday</p>
         <p>Hours: 8:00am - 6:00pm</p>
+        <p>Saturdays</p>
+        <p>Hours: 9:00am - 5:00pm</p>
+        <p>Sundays</p>
+        <p>Closed</p>
       </aside>
     </footer>
   );
